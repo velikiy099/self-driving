@@ -29,6 +29,16 @@ const traffic = [
     new Car(road.getLaneCenter(1), -700, 30, 50, "DUMMY", 2),
     new Car(road.getLaneCenter(2), -700, 30, 50, "DUMMY", 2),
 ]
+// let traffic = [];
+
+// for (let i = 0; i < 10; i++) {
+//     let col = Math.floor(Math.random() * laneCount) % laneCount;
+//     for (let j = 0; j < laneCount; j++) {
+//         if (j != col && Math.random() < 0.7) {
+//             traffic.push(new Car(road.getLaneCenter(j), -100 - 200 * i, 30, 50, "DUMMY", 2));
+//         }
+//     }
+// }
 
 
 animate();
